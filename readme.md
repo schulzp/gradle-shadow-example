@@ -6,5 +6,5 @@ Usually shading works like this: pull in some 3rd party dependencies, bundle the
 
 It's all smooth sailin' until you want to debug into the shaded code. The shadow plugin is not capable of shadowing sources, yet. Hence maven-publish cannot attach any sources. And since debugging without sources is not very insightful, this project arose.
 
-**TL;TR** It works! Have a look at the `build.gradle`
+**TL;DR** It works! Have a look at the `build.gradle`
 
