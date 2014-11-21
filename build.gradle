@@ -11,7 +11,7 @@ version = '4.3.6'
 task wrapper(type: Wrapper) { gradleVersion = '2.1' }
 
 task sourceJar(type: Jar, dependsOn: ':shadowSources') {
-    from files(fileTree("build/tmp/src").files)
+    from files("build/tmp/src")
 }
 
 void withFileSystem(URI uri, callback) {
